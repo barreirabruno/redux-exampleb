@@ -1,7 +1,17 @@
 import React from "react";
+import ProductsContainer from "./containers/ProductsContainer";
+import CartContainer from "./containers/CartContainer";
 
 function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <div>
+      <h2>Shopping cart example</h2>
+      <hr />
+      <ProductsContainer />
+      <hr />
+      <CartContainer />
+    </div>
+  );
 }
 
 export default App;
